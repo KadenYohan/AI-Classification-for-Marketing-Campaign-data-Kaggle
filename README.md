@@ -2,7 +2,7 @@
 This repository contains an end-to-end machine learning pipeline designed to predict customer responses to marketing campaigns. The codebase is structured sequentially, following industry-standard data science workflows from raw data ingestion to model evaluation. 
 
 ## 1. Data Ingestion & Preprocessing
-The pipeline begins by loading the raw tabular data (`marketing_campaign.csv`). The initial preprocessing script handles data integrity and cleaning:
+The pipeline begins by loading the raw tabular data (`marketing_campaign.csv`), this dataset is from KAGGLE, we do not own this data set (for the purpose of completing a course project only). The initial preprocessing script handles data integrity and cleaning:
 * **Missing Value Imputation:** Identifies and resolves null values (e.g., handling missing income records using median imputation or row deletion).
 * **Data Type Conversion:** Standardizes data types, particularly converting date strings into datetime objects for temporal analysis.
 * **Outlier Handling:** Detects and mitigates extreme outliers in financial columns to prevent model skewing.
